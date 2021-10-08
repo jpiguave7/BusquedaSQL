@@ -1,0 +1,5 @@
+name	minimum	maximum	config_value	run_value	
+adaptive query processing	0	1	0	0	
+hadoop connectivity	0	7	0	0	
+redistribute mode	0	1	0	0	
+streaming dms	0	1	0	0	
