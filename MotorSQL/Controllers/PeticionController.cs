@@ -77,6 +77,24 @@ namespace MotorSQL.Controllers
                             string ruta = "";
                             return TXT(item, ruta );
                         }
+                        else if (consulta.TipoReporte == "CONSULTA")
+                        {
+                            List<String> Columnas = new List<string>();
+                            foreach (DataColumn columna in item.Columns)
+                            {
+                                string Nombre = "";
+                                Nombre = columna.ColumnName;
+                                Columnas.Add(Nombre);
+                            }
+                            respuesta.NombresColumnas = Columnas;
+                            //foreach (DataRow fila in item.Rows)
+                            //{
+                            //    fila
+                            //}
+                            respuesta.Dato = item;
+                            consulta.Respuesta = respuesta;
+                            return View("Index", consulta);
+                        }
                     }
                 }
             }

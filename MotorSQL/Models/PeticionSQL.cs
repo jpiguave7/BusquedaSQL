@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -34,14 +35,8 @@ namespace MotorSQL.Models
         public DateTime FechaEjecucion { get; set; }
 
         public string TipoReporte { get; set; }
+        public MensajeRespuesta Respuesta { get; set; }
 
-        private List<CatalogoModelo> Catalogos = new List<CatalogoModelo>
-        {
-            new CatalogoModelo { id = 1, Descripcion = "DoloresAbernathy", Estado = "A"},
-            new CatalogoModelo { id = 2, Descripcion = "MaeveMillay", Estado = "A" },
-            new CatalogoModelo { id = 3, Descripcion = "BernardLowe", Estado = "A" },
-            new CatalogoModelo { id = 4, Descripcion = "ManInBlack", Estado = "A" }
-        };
     }
     
 
@@ -51,6 +46,8 @@ namespace MotorSQL.Models
         public string Mensaje { get; set; }
         public int CantidadTablas { get; set; }
         public int CantidadFilas { get; set; }
+        public List<string> NombresColumnas { get; set; }
+        public DataTable Dato { get; set; }
     }
 
     public class CatalogoSQL
