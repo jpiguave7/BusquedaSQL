@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ho1XCgIw8bSsiy/YBusY9BZsVUE1uMYgMWcjxe1b+LEv2KOGT/KUlRjNBnyzoDHJxHsqyWQ/6RqiCxjeLDGzaw==",
+  "dgSpecHash": "tJU8tMaxzyEaiX/NfHBp9Yo/8M2uyQMMubIAasCx1o0XAyeMHtbYbpDOOv/narC51B8xhVI4rtdu+EY/jrxvUg==",
   "success": true,
-  "projectFilePath": "D:\\Documentos\\Proyectos\\net core\\MotorSQL\\MotorSQL\\MotorSQL.csproj",
+  "projectFilePath": "D:\\Documentos\\Proyectos\\net core\\BusquedaSQL\\MotorSQL\\MotorSQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jimmy Piguave\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\Jimmy Piguave\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",

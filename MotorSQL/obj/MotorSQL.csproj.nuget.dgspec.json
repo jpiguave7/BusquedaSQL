@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Proyectos\\net core\\MotorSQL\\MotorSQL\\MotorSQL.csproj": {}
+    "D:\\Documentos\\Proyectos\\net core\\BusquedaSQL\\MotorSQL\\MotorSQL.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Proyectos\\net core\\MotorSQL\\MotorSQL\\MotorSQL.csproj": {
+    "D:\\Documentos\\Proyectos\\net core\\BusquedaSQL\\MotorSQL\\MotorSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Proyectos\\net core\\MotorSQL\\MotorSQL\\MotorSQL.csproj",
+        "projectUniqueName": "D:\\Documentos\\Proyectos\\net core\\BusquedaSQL\\MotorSQL\\MotorSQL.csproj",
         "projectName": "MotorSQL",
-        "projectPath": "D:\\Documentos\\Proyectos\\net core\\MotorSQL\\MotorSQL\\MotorSQL.csproj",
+        "projectPath": "D:\\Documentos\\Proyectos\\net core\\BusquedaSQL\\MotorSQL\\MotorSQL.csproj",
         "packagesPath": "C:\\Users\\Jimmy Piguave\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Proyectos\\net core\\MotorSQL\\MotorSQL\\obj\\",
+        "outputPath": "D:\\Documentos\\Proyectos\\net core\\BusquedaSQL\\MotorSQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
